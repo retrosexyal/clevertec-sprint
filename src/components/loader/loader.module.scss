@@ -1,0 +1,29 @@
+.wrapper {
+  position: fixed;
+  top: 0;
+  width: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(54, 54, 54, 0.3);
+  backdrop-filter: blur(10px);
+}
+
+.loader {
+  animation: rotate 2s infinite linear;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

@@ -1,0 +1,26 @@
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  .search_filter_wrapper {
+    display: flex;
+    gap: 16px;
+  }
+}
+.wrapper_ico {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+.button {
+  border: 0;
+  background: none;
+  @media (max-width: 430px) {
+    div {
+      width: 32px;
+      height: 32px;
+    }
+  }
+}

@@ -1,0 +1,18 @@
+export const routes = {
+  main: '/books/all',
+  booksAll: '/books/all/',
+  booksBusiness: '/books/business',
+  booksPsychology: '/books/psychology',
+  booksParents: '/books/parents',
+  booksNonFiction: '/books/non-fiction',
+  booksFiction: '/books/fiction',
+  booksProgramming: '/books/programming',
+  booksHobby: '/books/hobby',
+  booksDesign: '/books/design',
+  booksChildish: '/books/childish',
+  booksOther: '/books/other',
+  profile: '/profile',
+  exit: '/exit',
+  rules: '/rules',
+  contract: '/contract',
+};

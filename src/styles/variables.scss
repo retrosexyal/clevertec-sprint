@@ -1,0 +1,20 @@
+$box_shadow: 0px 2px 4px rgba(191, 196, 201, 0.2),
+  0px 3px 4px rgba(191, 196, 201, 0.18), 0px 1px 5px rgba(191, 196, 201, 0.24);
+$color_activ: #f83600;
+$background_color_activ: linear-gradient(
+  231.58deg,
+  #f83600 -53.35%,
+  #f9d423 297.76%
+);
+
+@mixin linkStyles() {
+  font-weight: 700;
+  font-size: 18px;
+  color: #363636;
+  background: none;
+  border: 0;
+  text-align: start;
+  display: block;
+  width: 91%;
+  padding-bottom: 13px;
+}

@@ -1,0 +1,29 @@
+@import '../../styles/variables.scss';
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 42px;
+    padding-top:32px;
+    margin: 52px 0;
+    border-top: 1px solid #BFC4C9;
+    width: 502px;
+    position: relative;
+    left: -32px;
+    @media (max-width:320px) {
+        width: 288px;
+        left: -16px;
+    }
+}
+
+.link{
+    @include linkStyles();
+    padding-left: 32px;
+    @media (max-width:320px) {
+        padding-left: 16px;
+    }
+}
+.active{
+    border-bottom: 1px solid ;
+    color: #F83600;
+}

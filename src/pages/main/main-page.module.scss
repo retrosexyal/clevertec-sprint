@@ -1,0 +1,10 @@
+.wrapper {
+  display: flex;
+  padding-top: 20px;
+  gap: 6px;
+  @media (max-width:1010px) {
+    .none{
+      display: none;
+    }
+  }
+}

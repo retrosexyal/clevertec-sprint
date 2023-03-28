@@ -1,0 +1,1 @@
+export { MenuContant } from "./menu-contant"

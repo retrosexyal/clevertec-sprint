@@ -1,0 +1,49 @@
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 31px 0 0;
+  gap: 21.5px;
+  height: 100%;
+  @media (max-width: 1108px) {
+    justify-content: center;
+  }
+
+  .book_wrapp {
+    display: flex;
+    flex: 0 0 190px;
+    height: 470px;
+    @media (max-width: 320px) {
+      flex: 0 1 288px;
+    }
+  }
+  .book_wrapp2 {
+    display: flex;
+    flex: 1 0 100%;
+  }
+
+  @media (max-width: 768px) {
+    margin: 23px 0 0;
+    gap: 35px;
+  }
+
+  @media (max-width: 320px) {
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    margin: 16px 0px 42px;
+  }
+}
+
+.emptyBookCont{
+  font-size: 32px;
+  color: #A7A7A7;
+  font-weight: 700;
+}
+
+.emptyBookFlexCont{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
